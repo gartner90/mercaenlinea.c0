@@ -1,0 +1,34 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+img{
+	width: 100%;
+}
+.land{
+	display: none;
+}
+@media only screen and (orientation : landscape) {
+	.land{
+		display: block;
+	}
+	.port{
+		display: none;
+	}
+	body{
+		background-color: #f3ac1e;
+	}
+}
+@media only screen and (orientation:portrait) {
+	.land{
+		display: none;
+	}
+	.port{
+		display: block;
+	}
+	body{
+		background-color: #1a1a1a;
+	}
+}
+
+ 
